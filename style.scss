@@ -18,7 +18,7 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 #body{
-    background-image:url("../images/dog.jpg");
+    background-image:url("dog.jpg");
     @include bg-img();
 }
 .skip-to-content-link {
@@ -67,7 +67,7 @@ nav{
     }   
 }
 #giverdog{
-    background-image:url("../images/cute1.jpeg");
+    background-image:url("cute1.jpeg");
     @include bg-img();
     height:550px;
     width:100%;
@@ -85,7 +85,7 @@ nav{
 
 
 #indexcard{
-    background-image: url("../images/dog.jpg");
+    background-image: url("dog.jpg");
     @include bg-img();
     height:500px;
     .col-sm-4{
@@ -99,7 +99,7 @@ nav{
     }
 }
 #pearl{
-    background-image:url("../images/pearlblack.jpg");
+    background-image:url("pearlblack.jpg");
     @include bg-img();
     height:550px;
     width:100%;
