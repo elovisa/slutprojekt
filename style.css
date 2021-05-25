@@ -4,7 +4,7 @@ body {
 }
 
 #body {
-  background-image: url("../images/dog.jpg");
+  background-image: url("dog.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@ nav {
 }
 
 #giverdog {
-  background-image: url("../images/cute1.jpeg");
+  background-image: url("cute1.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ nav {
 }
 
 #indexcard {
-  background-image: url("../images/dog.jpg");
+  background-image: url("dog.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +115,7 @@ nav {
 }
 
 #pearl {
-  background-image: url("../images/pearlblack.jpg");
+  background-image: url("pearlblack.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
