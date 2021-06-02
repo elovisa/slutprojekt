@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>hund</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Så att bootstrap funkar:-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <a class="skip-to-content-link" href="#main">
+        Skip to content
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light "><!--!bg-light-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="50" height="50" alt="Logga"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="work.html">Jobba hos oss</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hjälp oss
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="giver.html">Bli månadsgivare</a></li>
+                  <li><a class="dropdown-item" href="adopt.html">Adoptera</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Slutet på navbar, början på carousel-->
+      <div class="containter" id="pearl">
+          <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-4">
+              <p class="card-title">Jobba hos oss</p>
+              <p>Hjälp oss rädda fler, börja jobba med oss- Vi behöver dig!</p>
+              <a href="#form" class="btn btn-success">Jobba hos oss</a>
+            </div>
+            <div class="col-sm-7">
+            </div>
+          </div>
+      </div>
+      <div class="container" id="main">
+        <div class="row">
+          <div class="col-sm-7">
+              <h1>Jobba hos oss</h1>
+              <h2>Vill du hjälpa utsatta hundar?</h2>
+              <p>Vi är så glada över att du är intresserad av att jobba hos oss. Vi vill gärna ha dig med. Vi som jobbar
+                på organisationen är voluntärer, och spenderar vår fria tid med att ta hand om de utsatta hundarna.
+                Vi behöver dig. Hjälp oss rädda fler hundar.</p>
+              <p>Fyll i formuläret nedan, bifoga ditt cv och personliga brev så återkopplar vi via mail.</p>
+          </div>
+          <div class="col-sm-5">
+            <img src="images/closedog.jpg" alt="hund">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-7">
+                <a id="form"><h3>Fyll i formuläret nedan</h3></a>
+                <form>
+                    <div class="form-group">
+                      <!--name form-->
+                      <label for="exampleFormControlInput1">Namn</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Förnamn Efternamn">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Personnummer</label>
+                      <input type="text" class="form-control" id="exampleFormControlSelect1" placeholder="19990102-XXXX">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <!--email form-->
+                        <label for="exampleFormControlInput1">Mail address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@exempel.com">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <!--phone form-->
+                        <label for="exampleFormControlInput1">Telefonnummer</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput4" placeholder="070-123 45 67">
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="formFileMultiple" class="form-label">Infoga CV och personligt brev</label>
+                      <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Ditt meddelande</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Skicka</button>
+                    <i class="arrow left"></i>
+                  </form>
+              </div>
+              <div class="col-sm-5">
+                  <h3>Hur vi jobbar</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat explicabo deserunt nihil ab unde 
+                    quos minima doloremque sit laborum, nobis vitae est facere aliquam. Ratione magnam eligendi provident
+                    doloribus sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ullam delectus 
+                    magnam cumque tempore, facere corporis, aperiam quo iure neque temporibus laborum voluptatibus tenetur,
+                    dolorum recusandae asperiores itaque quaerat mollitia!</p>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, 
+                    hic perspiciatis atque neque voluptatum doloribus voluptatem rem, in inventore vitae 
+                    est quae aliquid? Corrupti sed iure explicabo repellendus dolor dolorem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, odio ut autem laudantium exercitationem 
+                      nemo. Nisi, quos temporibus. </p>
+            </div>
+          </div>
+      </div>
+      <footer>
+        <a href="https://www.instagram.com/p/COLl1XehHVp/"><img src="images/instablack.png" alt="Instagram's logo" width="35" height="35"></a>
+        <a href="index.html"><img src="images/logo.png" alt="logo" width="35" height="35"></a>
+        <a href=""><img src="images/fb.svg" alt="facebook logo" width="35" height="35"></a>
+      </footer>
+    </body>
+</html>
+
+
